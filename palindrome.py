@@ -1,6 +1,3 @@
-from pydoc import plain
-
-
 def palindrome(num):
     num = str(num)
     if num == num[::-1]:
